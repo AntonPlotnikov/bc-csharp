@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.3;netstandard1.0;net4</TargetFrameworks>
+    <TargetFrameworks>netstandard1.3;netstandard1.0</TargetFrameworks>
     <AssemblyName>BouncyCastle.Crypto</AssemblyName>
     <RootNamespace>crypto</RootNamespace>
     <AssemblyOriginatorKeyFile>..\..\BouncyCastle.snk</AssemblyOriginatorKeyFile>
@@ -30,7 +30,6 @@
   <ItemGroup>
     <Compile Include="..\bzip2\src\**\*.cs" LinkBase="bzip2" />
     <None Include="..\..\BouncyCastle.snk" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="2.0.37-beta" PrivateAssets="All" />
     <PackageReference Include="MSBuild.Sdk.Extras" Version="1.0.5" PrivateAssets="All" />
     <PackageReference Include="SourceLink.Create.CommandLine" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
