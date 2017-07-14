@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.3;netstandard1.0;portable-net4+sl5+wp8+win8+wpa81;net4</TargetFrameworks>
+    <TargetFrameworks>netstandard1.3;netstandard1.0;net4</TargetFrameworks>
     <AssemblyName>BouncyCastle.Crypto</AssemblyName>
     <RootNamespace>crypto</RootNamespace>
     <AssemblyOriginatorKeyFile>..\..\BouncyCastle.snk</AssemblyOriginatorKeyFile>
